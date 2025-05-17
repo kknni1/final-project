@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+nav a {
+    color: black;
+    text-decoration: underline;
+    font-size: 19px;
+    padding: 8px;
+    position: relative;
+    top: 25px;
+    left: 18px;
+    text-align: center;
+    font-family: "Comfortaa", sans-serif;
+
+}
+nav a:hover {
+    color: rgb(47, 8, 111);
+}
+
+nav {
+    background-image: linear-gradient(to right, #9e91bba2, white,#a68bd7a2);
+    height: 70px;
+    border-radius: 20px;
+}
