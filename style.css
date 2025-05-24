@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 nav a {
     color: black;
     text-decoration: underline;
     font-size: 19px;
     padding: 8px;
     position: relative;
-    top: 25px;
-    left: 18px;
-    text-align: center;
+    top: 18px;
     font-family: "Comfortaa", sans-serif;
 
 }
@@ -16,8 +14,87 @@ nav a:hover {
     color: rgb(47, 8, 111);
 }
 
+nav a:visited {
+    opacity: 0.5;
+}
+
 nav {
     background-image: linear-gradient(to right, #9e91bba2, white,#a68bd7a2);
     height: 70px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.main h1 {
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-style: semibold;
+    position: relative;
+    left: 70px;
+
+}
+
+span {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(26, 3, 62);
+    font-style: bold;
+}
+
+.main p {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+    color: #130232;
+    position: relative;
+    left: 180px;
+}
+
+.main ul {
+    box-shadow: 3px 4px 7px 2px gray;
+    width: fit-content;
+    position: relative;
+    left: 100px;
+    
+}
+
+.main img {
+    width: 70px;
+    position: relative;
+    top: 70px;
+
+}
+
+footer img {
+    width: 170px;
+    position: relative;
+    top: 30px;
+    left: 200px;
+}
+
+footer h2 {
+    font-family: "Comfortaa", sans-serif;
+    position: relative;
+    left: 180px;
+}
+
+.stackimg {
+    width: 90px;
+    position: relative;
+    
+}
+
+.stack {
+    display: flex;
+    justify-content: center;
+}
+
+.stack h1 {
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
 }
